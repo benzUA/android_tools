@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".TimerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_up_hours"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="∧"
+            android:layout_marginLeft="78dp"/>
+
+        <Button
+            android:id="@+id/btn_up_mins"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="∧"
+            android:layout_marginLeft="23dp"/>
+
+        <Button
+            android:id="@+id/btn_up_sec"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="∧"
+            android:layout_marginLeft="35dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_last"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="0:00:00"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_down_hours"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="∨"
+            android:layout_marginLeft="78dp"/>
+
+        <Button
+            android:id="@+id/btn_down_mins"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="∨"
+            android:layout_marginLeft="23dp"/>
+
+        <Button
+            android:id="@+id/btn_down_sec"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="∨"
+            android:layout_marginLeft="35dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:id="@+id/btn_start"
+        android:text="START"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:id="@+id/btn_pause"
+        android:text="PAUSE"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:id="@+id/btn_stop"
+        android:text="STOP"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

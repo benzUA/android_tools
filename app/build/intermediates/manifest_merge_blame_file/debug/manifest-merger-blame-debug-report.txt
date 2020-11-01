@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tools"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\38066\.gradle\caches\transforms-2\files-2.1\3fad7ea4f0b845c6f6667debb95e1494\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:10:9-35
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:12:9-89
+22            android:name="com.example.tools.RandomActivity"
+22-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:12:19-49
+23            android:screenOrientation="portrait" />
+23-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:12:50-86
+24        <activity
+24-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:13:9-88
+25            android:name="com.example.tools.TimerActivity"
+25-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:13:19-48
+26            android:screenOrientation="portrait" />
+26-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:13:49-85
+27        <activity
+27-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:14:9-92
+28            android:name="com.example.tools.StopwatchActivity"
+28-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:14:19-52
+29            android:screenOrientation="portrait" />
+29-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:14:53-89
+30        <activity
+30-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:15:9-93
+31            android:name="com.example.tools.CalculatorActivity"
+31-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:15:19-53
+32            android:screenOrientation="portrait" />
+32-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:15:54-90
+33        <activity
+33-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:16:9-22:20
+34            android:name="com.example.tools.MainActivity"
+34-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:16:19-47
+35            android:screenOrientation="portrait" >
+35-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:16:48-84
+36            <intent-filter>
+36-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:17:13-21:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:18:17-69
+37-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:18:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:20:17-77
+39-->C:\Users\38066\AndroidStudioProjects\Tools2\app\src\main\AndroidManifest.xml:20:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>

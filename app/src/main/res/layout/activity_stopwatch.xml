@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".StopwatchActivity">
+
+    <TextView
+        android:id="@+id/time_show"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="0:00:00"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:id="@+id/btn_start"
+        android:text="START"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:id="@+id/btn_pause"
+        android:text="PAUSE"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:id="@+id/btn_stop"
+        android:text="STOP"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

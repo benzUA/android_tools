@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="100dp"
+    android:orientation="vertical"
+    tools:context=".RandomActivity">
+
+    <TextView
+        android:id="@+id/randomiser"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#00d099"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:id="@+id/btn_gen"
+        android:text="Generate"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
